@@ -1,7 +1,18 @@
-body{
-    background-color: rgb(255, 255, 255);
+body {
+  background-color: rgb(255, 255, 255);
 }
-h1{
-    color:rgb(58, 0, 72);
-    text-align: center;
+h1 {
+  color: rgb(58, 0, 72);
+  text-align: center;
+}
+img {
+  margin: 20px;
+}
+input:checked ~ a {
+  /* visibility:hidden */
+  /* display:none; */
+  opacity: 0%;
+}
+a{
+    transition: 5s;
 }
